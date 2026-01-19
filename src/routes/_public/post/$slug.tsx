@@ -72,10 +72,6 @@ function RouteComponent() {
   const [showBackToTop, setShowBackToTop] = useState(false);
 
   useEffect(() => {
-    window.scrollTo(0, 0);
-  }, []);
-
-  useEffect(() => {
     const handleScroll = () => {
       setShowBackToTop(window.scrollY > 400);
     };
