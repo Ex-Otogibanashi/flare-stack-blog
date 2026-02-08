@@ -144,6 +144,7 @@ src/
    - Authorization callback URL：`https://<your-domain>/api/auth/callback/github`
 6. **图片优化（可选）** — 在 Cloudflare Dashboard 中为你的域名开启 [Cloudflare Images](https://developers.cloudflare.com/images/)，每月 5000 次 unique transformations 免费额度
 7. **邮件通知（可选）** — 注册 [Resend](https://resend.com) 并绑定域名，在博客后台「设置」页面配置 API Key。每月 3000 封免费额度。配置后可启用密码登录、验证码、回复通知、找回密码等功能
+8. **Turnstile（可选）** — 在 Cloudflare Dashboard 中为你的域名开启 [Cloudflare Turnstile](https://www.cloudflare.com/products/turnstile/)，获取 Site Key，可用于防止脚本小子恶意注册、评论等
 
 ---
 
